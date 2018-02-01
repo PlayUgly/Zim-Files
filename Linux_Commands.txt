@@ -1,12 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
 ====== Linux Commands ======
 Created Friday 26 August 2016
 
 ls -A		display hidden files
 
-sudo mount -t auto [[/dev/sda2]] [[/mnt/manjaro_part]]	mount partition
+sudo mount -t auto [[/dev/sda2]] [[/mnt/manjaro_part]]		mount partition
 
-cp -r		Copy directory
+cp -r							Copy directory
 
-rm -r	Remove directory
+rm -r							Remove directory
+
+ln -s Existing-file link-name				Create symbolic link
+
 
 If there is only one stopped job, you can resume it by typing the command "fg". If there are several stopped jobs, you may need to specify by number which one you want to resume. You can get a list of your stopped jobs, with numbers, by typing "bg". To resume job number 3 (for instance), type "fg 3"	 		
