@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-12-03T09:43:36-06:00
+
+====== VIM Marks ======
+Created Sunday 03 December 2017
+
+ma	Marks current position with a
+
+'a	Navigates to the line marked with a
+`a	Navigate to the position marked with a
+
+''	Returns to the previous line
+``	Returns the the previous position

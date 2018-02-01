@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-08-20T20:24:05-05:00
+
+====== VIM Tricks and Combinations ======
+Created Saturday 20 August 2016
+
+useful combinations
+xp	transpose characters
+ea	append at the end of a word
+ddp	swaps lines

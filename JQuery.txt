@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-12-03T09:14:47-06:00
+
+====== JQuery ======
+Created Sunday 03 December 2017
+
+
+=== Embed jQuery ===
+https://developers.google.com/speed/libraries/
+<script src="filename"></script>
+
+=== Selector ===
+$("#elementID")
+$(".elementClass")
+$("elementType")

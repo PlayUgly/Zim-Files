@@ -1,0 +1,42 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-08-20T20:20:15-05:00
+
+====== VIM Commands ======
+Created Saturday 20 August 2016
+
+[esc]	command mode
+i	insert text at current location
+a	append text at current location
+**I	insert at beginning of line**
+A	append at end of line
+o	insert line below current location
+O	insert line above current location
+v	visual selection
+
+**^w	delete last word (insert mode)**
+**^o	issue normal command (insert mode)**
+
+edit commands combine with movement commands
+c	change (replace)
+d	delete/copy to buffer
+y	yank (copy to buffer)
+
+D	delete from current position to end of line, same as d$
+p	paste after
+P	paste before
+**cc	replace entire line**
+**C	replace from current position to the end of line, same as c$**
+r	replaces a single character
+R	overstrike mode
+s	substitute a single character
+S	substitute an entire line, same as cc?
+~	change case of character
+x	delete character, xp will transpose characters
+Y	yank (copy to buffer) entire line, same as yy
+
+.	repeat command
+u	undo last
+^r	redo last
+J	join two lines
+U	restore line to its original state

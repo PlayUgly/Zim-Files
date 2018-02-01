@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-08-21T21:12:52-05:00
+
+====== Disk Partitions ======
+Created Sunday 21 August 2016
+
+fdisk -l
+
+sda1	swap 7.8 GB
+sda2	Manjaro 97.7 GB
+sda3	Arch 97.7 GB
+sda4	data 262.6 GB

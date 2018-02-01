@@ -1,0 +1,40 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-11-07T20:17:12-06:00
+
+====== VIM Completion ======
+Created Tuesday 07 November 2017
+
+=== Completion Mode Ctrl-x ===
+	Ctrl-o	Omnicomplete
+	Ctrl-l	Lines (context aware, repeating ^x ^l will get next lines)
+	Ctrl-n,-p	key words (context aware, repeating ^x ^p will get next words in line)
+	Ctrl-i	key words in included files
+	Ctrl-]	tags
+	Ctrl-f	filenames
+	Ctrl-d	definitions/macros
+
+
+=== Key words ===
+	Ctrl-n, Ctrl-p
+
+
+=== Close preview window ===
+	:pclose
+	
+
+=== Help ===
+	:help ins-completion
+	
+
+=== Let VIM Do the Typing ===
+	https://youtu.be/3TX3kV3TICU 
+	http://georgebrock.github.io/talks/vim-completion/
+	
+	Overview:
+	^r = insert text from a register
+	^a = insert text from register '.' (last text inserted)
+	^p = completion menu
+	
+	How to change where to complete from:
+	set complete﻿

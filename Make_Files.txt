@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-01-10T22:07:47-06:00
+
+====== Make Files ======
+Created Wednesday 10 January 2018
+
+
+https://www.gnu.org/software/make/manual/make.html
+
+target1 [target2 ...]: [pre-req-1 pre-req-2 ...]
+	[command1
+	 command2
+	 ......]
+
+
+=== Automatic Variables ===
+Automatic variables are set by make after a rule is matched. These include:
+$@: the target filename.
+$*: the target filename without the file extension.
+$<: the first prerequisite filename.
+$^: the filenames of all the prerequisites, separated by spaces, discard duplicates.
+$+: similar to $^, but includes duplicates.
+$?: the names of all prerequisites that are newer than the target, separated by spaces.

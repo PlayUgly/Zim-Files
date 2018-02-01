@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-10-29T21:21:40-05:00
+
+====== VIM Tabs ======
+Created Sunday 29 October 2017
+
+http://vim.wikia.com/wiki/Using_tab_pages
+
+vim -p first.txt second.txt
+
+:tabedit file
+
+gt            go to next tab
+gT            go to previous tab
+{i}gt         go to tab in position i

@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-08-20T19:33:48-05:00
+
+====== VIM Open and Close ======
+Created Saturday 20 August 2016
+
+vim +n		opens file at line n
+vim +		opens file at last line
+vim +/pattern	opens file at first occurrence of pattern
+
+:w	write (save) file, enter new file name to save to a different file
+:q	quit without saving
+:wq	unconditionally writes then quits
+:e	wipe out edits and return to original file
+:x	writes (if changes were made) and then quits
+**ZZ	save and exit**

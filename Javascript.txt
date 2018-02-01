@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-11-04T17:09:18-05:00
+
+====== Javascript ======
+Created Saturday 04 November 2017
+
+[[http://completewebdevelopercourse.com/content/furtherreading/Further%20Reading%203%20-%20Javascript.pdf|Further Reading]]
+[[http://completewebdevelopercourse.com/content/furtherreading/Reference%203%20-%20Javascript.pdf|Reference]]

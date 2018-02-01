@@ -1,0 +1,160 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-11-04T17:06:55-05:00
+
+====== HTML ======
+Created Saturday 04 November 2017
+
+[[http://completewebdevelopercourse.com/content/furtherreading/Further%20Reading%201%20-%20HTML.pdf|Further Reading]]
+[[http://completewebdevelopercourse.com/content/furtherreading/Reference%201%20-%20HTML%20Tag%20Reference.pdf|Reference]]
+
+[[https://www.webpagefx.com/tools/lorem-ipsum-generator/|Lorem Ipsum Generator]]
+
+=== Template ===
+	[[~/projects/web/templates/template.html]]
+	
+
+=== Header Tags - h1 tags help with Google search ===
+	<h1></h1> through <h6></h6>
+	
+
+=== Paragraph Tag ===
+	<p></p>
+
+
+=== Span ===
+	<span></span>
+	
+
+=== Div ===
+	<div></div>
+	
+
+
+=== Label ===
+	<label for="elementID"></label>
+
+
+=== Line break ===
+	<br>
+
+
+=== horizontal line ===
+	<hr>
+	
+
+=== bold text ===
+	<strong></strong>
+	
+
+=== italic ===
+	<em></em>
+
+
+=== underline ===
+	<ins></ins>
+	
+
+=== superscript ===
+	<sup></sup>
+
+
+=== subscript ===
+	<sub></sub>
+	
+
+=== strike through ===
+	<del></del>
+	
+
+=== Unordered List ===
+	<ul>
+		<li>Vic</li>
+		<li>Lisa</em></li>
+		<li>Michael</li>
+		<li>KC</li>
+	</ul>
+
+
+=== Ordered List ===
+	<ol>
+		<li><strong>Vic</strong></li>
+		<li>Lisa</em></li>
+		<li>Michael</li>
+		<li>KC</li>
+	</ol>
+
+
+=== Images ===
+	<img src="wsu-1.jpg" width="100" height="100">
+	<img src="http://www.kansas.com/latest-news/y8dc97/picture931864/alternates/FREE_640/GL21QG0SK.3STF" width="100" height="100" align="right">
+
+
+=== Forms ===
+	<form>
+		<p>Username:<input type="text" placeholder="Username"</p>
+		<p>Stay logged in <input type="checkbox" checked></p>
+		<p>Under 18: <input type="radio" name="age" value="u18"</p>
+		<p>Over 18: <input type="radio" name="age" value="o18"</p>
+				
+		<p>Favorite Food:
+			<select>
+				<option>Pizza</option>
+				<option selected>Ice Cream</option>
+				<option>Sandwiches</option>
+			</select>
+		</p>
+		<p><input type="submit" value="Click Me!"></p>
+	</form>
+
+
+=== Tables ===
+	<table cellspacing="0">
+		<th>
+			<tr>
+				<th>Name</th>
+				<th>Favorite<br>Color</th>
+			</tr>
+		</th>
+		<tbody>
+			<tr>
+				<td>Lisa</td>
+				<td>Green</td>
+			</tr>
+				<tr>
+				<td>Victor</td>
+				<td>Blue</td>
+			</tr>
+			<tr>
+				<td>Michael</td>
+				<td>Red</td>
+			</tr>
+			<tr>
+				<td>KC</td>
+				<td>Yellow</td>
+			</tr>
+		</tbody>
+	</table>
+	
+
+=== Links ===
+	<p id="top"><a href="http:\\www.google.com">Click here to go to google.com</a></p>
+	<p><a href="http:\\www.google.com"><img src="wsu-1.jpg"></a></p>
+
+	<p><a href="helloworld.html">Hello, World!</a></p>
+
+	<p><a href="#top">Return to top of the page</a></p>
+	<p><a href="#superscript">Return to superscript</a></p>
+
+
+=== iFrames ===
+	<iframe src="http://ecowebhosting.co.uk"></iframe>
+	<iframe src="helloworld.html"></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/q5qsoTKQfpU" frameborder="0" allowfullscreen></iframe>
+
+
+=== HTML Entities ===
+	&lt;a href="http//www.google.com"&gt;
+	<p>&hearts;</p>
+	
+

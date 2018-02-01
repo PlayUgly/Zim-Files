@@ -1,0 +1,22 @@
+====== VIM Text Objects ======
+Created Friday 26 August 2016
+
+http://blog.carbonfive.com/2011/10/17/vim-text-objects-the-definitive-guide/
+
+a	all
+i	inner
+
+w	word
+s	sentence
+p	paragraph
+
+"	within double quote
+'	within single quote
+`	within back quote
+
+)	within parantheses
+]	within bracket
+}	within braces
+
+t	within a tag block
+>	within a tag

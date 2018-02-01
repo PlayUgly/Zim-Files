@@ -1,0 +1,51 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-08-20T20:12:36-05:00
+
+====== VIM Navigation ======
+Created Saturday 20 August 2016
+
+CTRL-g	displays current cursor location and file status
+G	preceded by number - goto line; no number - eof
+gg	go to top of file
+**``	move to position where last G command or search was executed**
+**''	move to beginning of line where last G command or search was executed**
+
+**CTRL-O	previous position**
+**CTRL-I	next position**
+
+^]	jumps to definition (if it exists in ctags)
+^t	jumps tags
+
+^f	scroll forward one screen
+^b	scroll backward one screen
+^d	scroll forward half screen
+^u	scroll backward half screen
+^e	scroll forward one line
+^y	scroll backword one line
+
+z[cr]	move current line to top of screen
+z-	move current line to bottom of screen
+z. move current line to center of screen
+
+H	move to top line shown on screen
+M	move to middle line shown on screen
+L	move to last line shown on screen
+nH	move n lines below the top line shown on screen
+nL	move n lines above the bottom line shown on screen
+
+[enter]	move to the first character of next line
+
+0	beginning of line
+^	move to first non-blank character on a line
+n|	move to column n
+%	find matching (), {}, or []
+
+(	beginning of current sentence
+)	end of current sentence
+**{	beginning of current paragraph**
+**}	end of current paragraph**
+[[	beginning of current section
+]]	end of current section
+
+[[VIM Movement]]

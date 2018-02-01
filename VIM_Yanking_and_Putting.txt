@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-08-20T20:24:54-05:00
+
+====== VIM Yanking and Putting ======
+Created Saturday 20 August 2016
+
+yanking and putting using buffers
+"xy	yanks to buffer x, also applies to yy, using capital buffer name appends text
+"xd	cuts to buffer x, also applies to dd, using capital buffer name appends text
+"xp	puts contents of buffer x
+
+"np	recovers deletion n 
+"1pu.u	repeating u. allows incrementing through the deletion buffers

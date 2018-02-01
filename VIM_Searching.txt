@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-08-20T20:22:52-05:00
+
+====== VIM Searching ======
+Created Saturday 20 August 2016
+
+/	search forward
+?	search backward
+n	repeat search in the same direction
+N	repeat search in opposite direction
+/[cr]	repeat search forward
+?[cr]	repeat search backward
+
+fx	move forward to the next occurence of x in line
+Fx	move backward to the previous occurence of x in line
+tx	move forward to the character before the next occurence of x in line
+Tx	move backward to the character after the previous occurence of x in line
+;	repeat previous find command in the same direction
+,	repeat previous find command in the opposite direction
+
+:s/from/to	changes the first occurrence of "from" in a line
+:s/from/to/g	changes every occurrence of "from" in a line
+:%s/from/to/g	changes every occurrence of "from" in the whole file
+:%s/from/to/gc	changes every occurrence of "from" in the whole file, prompts before changing
+
+insert #,# before the s to include only specified line numbers

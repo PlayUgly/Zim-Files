@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-11-11T12:29:18-06:00
+
+====== Airline ======
+Created Saturday 11 November 2017
+
+=== Manual ===
+https://github.com/vim-airline/vim-airline/blob/master/doc/airline.txt

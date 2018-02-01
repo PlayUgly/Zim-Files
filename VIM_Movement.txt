@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-08-20T20:11:51-05:00
+
+====== VIM Movement ======
+Created Saturday 20 August 2016
+
+movement commands can be preceded with a number to specify how many times the command will be executed.
+hjkl	left, down, up, right
+w	word forward, with punctuation
+W	word forward, without punctuation
+b	word back, with punctuation
+B	word back, without punctuation
+e	end of word
+$	end of line
++	first character of next line
+-	first character of previous line
+^	first nonblank chraracter
+
+[[VIM Navigation]]

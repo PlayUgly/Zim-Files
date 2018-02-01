@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-09-05T12:37:20-05:00
+
+====== i3 Config ======
+Created Monday 05 September 2016
+
+https://i3wm.org/docs/userguide.html
+
+[[~/.i3/config]]
+
+resize		win-r
+restart i3	win-shift-r

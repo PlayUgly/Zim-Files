@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-08-20T17:01:49-05:00
+
+====== Pacman ======
+Created Saturday 20 August 2016
+
+**sudo pacman -Syu**		updates Arch
+**sudo pacman -S [Package Name]	**installs package
+**pacman -Ss [Package Name]**	searches for package
+**pacman -Q**			list of installed packages

@@ -1,0 +1,39 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-08-20T20:27:24-05:00
+
+====== VIM ex Commands ======
+Created Saturday 20 August 2016
+
+:set nonumber	disable line numbers
+set number	enable line numbers
+set ic		sets searches to be case insensitive
+set noic	sets searches to be case sensitive
+
+d	delete
+m	move
+co	copy
+t	copy, synonym for co
+nr	inserts contents of another file into current file after line or pattern n (n is optional)
+w	write file, must include filename, >>filename appends to file
+ya	yank
+pu	put
+r	insert a file
+
+:!	execute shell command (:!ls)
+line1,line1[cmd]
+
+.	current line
+%	every line, same as 1,$
+$	last line
++n	n lines below the current line
+-n 	n lines above the current line
+
+/pattern/	uses a pattern with commands
+
+1,5d	deletes lines 1 through 5
+1,5m10	moves lines 1 through 5 after line 10
+1,5co10	copies lines 1 through 5 after line 10
+1,5co-3	copies lines 1 through 5 to the line after three lines above the current line
+
+1;+6c10	copies from line 1 to line 1+6 to below line 10

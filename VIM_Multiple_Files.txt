@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-08-20T20:27:59-05:00
+
+====== VIM Multiple Files ======
+Created Saturday 20 August 2016
+
+**Multiple Files**
+e	open another file, # is alternate file
+^^	switch to alternate file, same as :e#
+n	next file
+args	list files
+rew	open first file
+last 	open last file:
+	
+[[VIM Split Window]]

@@ -1,0 +1,95 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== GIT ======
+Created Sunday 28 August 2016
+
+git clone <remote path>		clones a github project in the current directory
+
+git init <repo name>		turns a directory into a git repository
+git init --bare <repo name.git>	creates a bare git repository, does not have a working directory
+
+git status
+git add <files>
+git rm <file>			stop tracking file and deletes file from working directory
+git commit -m 			"message"
+git commit -a			add all tracked files (use instead of git add if only tracked files have changed)
+git commit -amend		add staged changes to latest commit instead of creating new commit
+
+git log --oneline		condenses history to one line
+git log <file>			show only history of specified file
+git log -n 4			show log of last 4 commits from the curren head
+git log <since>..<until>	display commits reachable from <until> but not from <since>.  Parameters can be commit IDs or branch names.
+
+git checkout <key>
+git checkout <branch>
+git checkout <name>/<branch>
+git checkout -b <new branch>	create and check out a new branch
+git checkout <commit-id> <file> revert an individual file to match the specified commit without switching branches.
+
+git tag -a v1.0 -m "Stable version of the website"	create a tag
+git checkout v1.0		checkout by tag name
+
+git revert <key to undo>	rolls back a commit by applying a new commit
+git reset --hard		restores tracked files to the latest commit
+git reset --hard HEAD@{1}	undo merge (must be executed immediately)
+git reset --hard HEAD~<n>	move the head back n commits and change the working directory to match
+git reset --mixed HEAD~<n>	move the head back n commits but don't change the working directory
+git reset --merge		cancels merge if there has been conflicts
+git reset HEAD <file>		unstage a file, but don't alter the working directory or move the current branch.
+git clean -f			deletes all untracked files
+
+reset --hard and clean -f together undo all uncommited changes
+
+
+git branch			displays branch names
+git branch <new branch name>	creates a new branch
+git checkout -b <new branch>	create and check out a new branch
+
+git branch -d <branch>		deletes branch
+git branch -r			lists remote branches
+
+git merge <remote>/<branch>	merges specified branch into current branch
+git merge --no-ff <branch>	force merge commit even if git can do merge commit
+
+git rebase <base branch>	moves the current branch to the head of the specified base branch
+git -i rebase <base branch>	interactive rebase
+git rebase --continue		continue a rebase after amending a commit
+git rebase --abort		abort the current interactive rebase and return to the previous state
+
+git reflog			display the local, chronological history of a repository
+
+git remote -v			list remote repos (-v is verbose)
+git remote add <name> <path>	bookmarks a remote repository
+git fetch <name>		downloads remote branches from a remote repository
+git remote rm <name>		remove remote from bookmarked connections
+
+git push -u <remote name> <branch name>		push a local branch to another repo
+git push <remote name> <tag name>		push a tag to  another repo
+git push -d <remote_name> <branch_name>		delete remote branch
+
+git format-patch <branch>	create a patch for each commit contained in the current branch but not in <branch>
+git am < <patch-file>		apply a patch to the current branch
+
+git archive master --format=zip --output=../website-12-10-2012.zip		create zip file of git branch
+git archive master --format=tar --output=../website-12-10-2012.tar		create tar file of git branch
+git bundle create ../repo.bundle master						create bundle file of git branch, can clone from it
+
+.gitignore		file listing all of the files and directories git will ignore
+
+git stash		saves uncomitted changes and cleans the working directory
+git stash apply		restores the changes made by git stash, can be applied to any branch
+
+git diff <commit-id>..<commit-id>		view the difference between two commits.
+git diff					view the difference between the working directory and the staging area.
+git diff --cached				view the difference between the staging area and the most recent commit.
+
+git config --global alias.<alias-name> <git command> create a shortcut for a command and store it in the global configuration file.
+
+git cat-file <type> <object-id> 			display the specified object, where <type> is one of commit, tree, blob, or tag
+git cat-file -t <object-id>				output the type of the specified object
+git ls-tree <tree-id>					display a plain-text version of the specified tree object
+git gc							perform a garbage collection on the object database
+git update-index [--add] <file> 			stage the specified file, using the optional --add flag to denote a new untracked file
+git write-tree						generate a tree from the index and store it in the object database.  Returns the ID of the new tree object.
+git commit-tree <tree-id> -p <parent-id>		create a new commit object from the given tree object and parent commit.  Returns the ID of the new commit object.

@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-12-03T09:37:10-06:00
+
+====== VIM Buffers ======
+Created Sunday 03 December 2017
+
+=== Recovering Line Deletions ===
+The last 9 line deletions are stored in buffers 1-9.  
+"1p		Pastes last deletion ("2p, second to last, etc)
+"1pu.u.u etc.	u removes the last stored deletion, . pastes the next stored deletion
+
+"ay	Yanks text into buffer a
+"ad	Deletes text into buffer a
+
+"ap	Pastes text from buffer a

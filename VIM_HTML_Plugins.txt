@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== VIM HTML Plugins ======
+Created Sunday 28 August 2016
+
+http://www.catonmat.net/blog/vim-plugins-ragtag-allml-vim/
+
+**ragtag			**http://www.catonmat.net/blog/vim-plugins-ragtag-allml-vim/
+	//ctrl-x ///	Closes an open tag
+	ctrl-x <space>	creates an open/close tag on the same line from a word
+	ctrl-x <enter>	creates an open/close tag on with a new line from a word
+	
+**surround	**http://www.catonmat.net/blog/vim-plugins-surround-vim/
+	Delete, change and add various "surroundings" in pairs.
+
+**matchit		**http://www.catonmat.net/blog/vim-plugins-matchit-vim/
+	Extends the existing functionality of "%" key, used to jump between pairs of characters like (), {}, and HTML tags.
+	
+	
+:help <//plugin name> //will bring up documentation
