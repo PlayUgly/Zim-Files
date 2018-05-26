@@ -9,3 +9,4 @@ Created Saturday 20 August 2016
 **sudo pacman -S [Package Name]	**installs package
 **pacman -Ss [Package Name]**	searches for package
 **pacman -Q**			list of installed packages
+**pacman -R** **[Package Name]	**removes package

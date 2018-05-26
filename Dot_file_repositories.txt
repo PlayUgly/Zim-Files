@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-05-26T15:51:33-06:00
+
+====== Dot file repositories ======
+Created Saturday 26 May 2018
+
+https://stackoverflow.com/questions/18197705/adding-your-vim-vimrc-to-github-aka-dot-files?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+
+Create symbolic links is on the [[Linux Commands]] page.
