@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-06-03T09:00:25-06:00
+
+====== UltiSnip ======
+Created Sunday 03 June 2018
+
+https://github.com/sirver/ultisnips
+
+[[~/.vim/vic-snippets/]]	Private snippets directory
+
+:UltiSnipsEdit		Opens the private snippets file for the current file type
+
