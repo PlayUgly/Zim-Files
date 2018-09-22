@@ -21,7 +21,6 @@ pu	put
 r	insert a file
 
 :!	execute shell command (:!ls)
-line1,line1[cmd]
 
 .	current line
 %	every line, same as 1,$
@@ -30,6 +29,8 @@ $	last line
 -n 	n lines above the current line
 
 /pattern/	uses a pattern with commands
+
+line1,line2[cmd]
 
 1,5d	deletes lines 1 through 5
 1,5m10	moves lines 1 through 5 after line 10

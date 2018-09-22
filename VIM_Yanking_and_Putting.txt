@@ -12,3 +12,5 @@ yanking and putting using buffers
 
 "np	recovers deletion n 
 "1pu.u	repeating u. allows incrementing through the deletion buffers
+
+ctrl-shift-v	Paste from clipboard

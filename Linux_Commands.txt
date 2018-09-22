@@ -14,11 +14,16 @@ rm -r							Remove directory
 
 ln -s Existing-file link-name				Create symbolic link
 
+chmod +x file						Make file executable
+
+free -m							memory information
+
+df -H							disk space information
+
+Create a symbolic link to an executable file in the [[/bin]] directory and then make the link executable to run it anywhere from the command line.
 
 === Update top 5 mirrors for Arch updates: ===
 sudo reflector --verbose --country 'United States' -l 5 --sort rate --save [[/etc/pacman.d/mirrorlist]]
 
 
 If there is only one stopped job, you can resume it by typing the command "fg". If there are several stopped jobs, you may need to specify by number which one you want to resume. You can get a list of your stopped jobs, with numbers, by typing "bg". To resume job number 3 (for instance), type "fg 3"	 		
-
-

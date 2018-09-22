@@ -7,4 +7,6 @@ Created Saturday 26 May 2018
 
 https://stackoverflow.com/questions/18197705/adding-your-vim-vimrc-to-github-aka-dot-files?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
 
+Files kept under [[~/git/dotfiles]]
+
 Create symbolic links is on the [[Linux Commands]] page.

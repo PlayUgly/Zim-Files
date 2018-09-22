@@ -6,6 +6,7 @@ Creation-Date: 2017-09-07T21:58:02-05:00
 Created Thursday 07 September 2017
 
 https://wiki.archlinux.org/index.php/termite
+https://github.com/thestinger/termite/blob/master/README.rstq
 
 config file	~/.config/termite/config
 

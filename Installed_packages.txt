@@ -32,6 +32,8 @@ vim-tagbar
 vim-airline
 cool-retro-term
 xorg-xrandr
+jre
+python 3
 
 aur
 	vundle

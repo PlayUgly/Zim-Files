@@ -11,4 +11,4 @@ https://i3wm.org/docs/userguide.html
 
 resize		win-r
 restart i3	win-shift-r
-ei
+xrandr		screen configuration
