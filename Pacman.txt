@@ -6,7 +6,15 @@ Creation-Date: 2016-08-20T17:01:49-05:00
 Created Saturday 20 August 2016
 
 **sudo pacman -Syu**		updates Arch
+
 **sudo pacman -S [Package Name]	**installs package
+
 **pacman -Ss [Package Name]**	searches for package
-**pacman -Q**			list of installed packages
+
 **pacman -R** **[Package Name]	**removes package
+
+**pacman -Q**			list of installed packages
+**pacman -Qqe**			list of all installed packages
+**pacman -Qqen**			list of all installed packages, excluding foreign packages (like AUR)
+
+**pacman -S - < [package list]**	install packages from a list, to skip already installed packages, use --needed.
