@@ -11,10 +11,12 @@ Created Saturday 20 August 2016
 
 **pacman -Ss [Package Name]**	searches for package
 
-**pacman -R** **[Package Name]	**removes package
+**pacman -Rs** **[Package Name]	**removes package
 
 **pacman -Q**			list of installed packages
 **pacman -Qqe**			list of all installed packages
-**pacman -Qqen**			list of all installed packages, excluding foreign packages (like AUR)
+**pacman -Qqen**		list of all installed packages, excluding foreign packages (like AUR)
+
+**comm -23 <(pacman -Qeq | sort) <(pacman -Qgq base base-devel | sort)	**List explicitly installed packages not in the base or base-devel groups
 
 **pacman -S - < [package list]**	install packages from a list, to skip already installed packages, use --needed.
