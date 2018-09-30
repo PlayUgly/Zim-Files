@@ -6,6 +6,8 @@ Creation-Date: 2016-08-20T17:01:49-05:00
 Created Saturday 20 August 2016
 
 **sudo pacman -Syu**		updates Arch
+**pacman -Qtd**				lists packages that were installed as dependencies, but are no longer depended upon
+**pacman -Qm**				list of foreign packages
 
 **sudo pacman -S [Package Name]	**installs package
 
