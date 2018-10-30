@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-10-20T13:31:23-06:00
+
+====== VIM Macros ======
+Created Saturday 20 October 2018
+
+http://vim.wikia.com/wiki/Macros
+
+Record	q<letter><commands>q
+Run		<number>@<letter>
+Run again	@@k
