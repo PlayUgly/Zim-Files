@@ -25,3 +25,5 @@ Tx	move backward to the character after the previous occurence of x in line
 :%s/from/to/gc	changes every occurrence of "from" in the whole file, prompts before changing
 
 insert #,# before the s to include only specified line numbers
+
+/\<whole word/>		whole word search

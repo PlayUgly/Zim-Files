@@ -6,3 +6,5 @@ Creation-Date: 2017-09-06T20:42:31-05:00
 Created Wednesday 06 September 2017
 
 Installing Packages		https://wiki.archlinux.org/index.php/Arch_User_Repository#Installing_packages
+
+Uninstall 				Use pacman uninstall command

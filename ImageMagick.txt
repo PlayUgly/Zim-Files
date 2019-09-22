@@ -1,0 +1,28 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-07-30T20:07:48-06:00
+
+====== ImageMagick ======
+Created Tuesday 30 July 2019
+
+
+=== Screen shot ===
+https://wiki.archlinux.org/index.php/taking_a_screenshot#ImageMagick.2FGraphicsMagick
+
+import -window root screenshot.jpg
+Running import without the -window option allows selecting a window or an arbitrary region interactively.
+
+=== Scale images ===
+https://imagemagick.org/Usage/resize/
+
+convert dragon.gif    -resize 64x64  resize_dragon.gif
+
+^	fill area flag
+
+convert dragon.gif    -resize 64x64^  resize_dragon.gif
+
+
+=== Crop images ===
+https://imagemagick.org/Usage/crop/
+
+convert rose: -crop 40x30+10+10kk

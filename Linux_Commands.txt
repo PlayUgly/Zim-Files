@@ -7,6 +7,7 @@ Created Friday 26 August 2016
 ls -A		display hidden files
 
 sudo mount -t auto [[/dev/sda2]] [[/mnt/manjaro_part]]		mount partition
+umount [[/mnt/manjaro_part]]							unmount partition
 
 cp -r							Copy directory
 
@@ -19,6 +20,10 @@ chmod +x file						Make file executable
 free -m							memory information
 
 df -H							disk space information
+
+grep pattern directory		search files
+-i								case sensitive
+-v								invert search
 
 Create a symbolic link to an executable file in the [[/bin]] directory and then make the link executable to run it anywhere from the command line.
 
