@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-01-19T10:04:32-07:00
+
+====== Regulatory Links ======
+Created Sunday 19 January 2020
+
+EASA Publications:	https://www.easa.europa.eu/official-publication
+Regulations-> Air Operations ->Easy Access Rules
+Annex 4, Section 3 - Can be found by searching "Mass and Balance"
+
+CDC Body Measurements, people weights: https://www.cdc.gov/nchs/fastats/body-measurements.htm
+
+CDC Data Table of Weight-for-age Charts: https://www.cdc.gov/growthcharts/html_charts/wtage.htm
+
+2016 Aerospace Medical Certification Statistical Handbook: https://www.faa.gov/data_research/research/med_humanfacs/oamtechreports/2010s/media/201804.pdf

@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-01-16T18:26:27-07:00
+
+====== declspec ======
+Created Thursday 16 January 2020
+
+https://docs.microsoft.com/en-us/cpp/cpp/declspec?view=vs-2019
+
+Writing a Cross-Platform Dynamic Library
+https://atomheartother.github.io/c++/2018/07/12/CPPDynLib.html
+

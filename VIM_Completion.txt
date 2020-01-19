@@ -29,7 +29,7 @@ Created Tuesday 07 November 2017
 
 === Let VIM Do the Typing ===
 	https://youtu.be/3TX3kV3TICU 
-	http://georgebrock.github.io/talks/vim-completion/
+	[[http://]]''georgebrock''.github.io/talks/vim-completion/
 	
 	Overview:
 	^r = insert text from a register

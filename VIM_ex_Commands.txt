@@ -19,6 +19,7 @@ w	write file, must include filename, >>filename appends to file
 ya	yank
 pu	put
 r	insert a file
+r! sed -n 10,16p <path-to-file>	inserts lines 10 through 16 of a file
 
 :!	execute shell command (:!ls)
 
