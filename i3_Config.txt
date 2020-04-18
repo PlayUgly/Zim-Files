@@ -7,7 +7,7 @@ Created Monday 05 September 2016
 
 https://i3wm.org/docs/userguide.html
 
-[[~/.config/i3]]
+[[~/.i3/config]]
 
 resize		win-r
 restart i3	win-shift-r
