@@ -1,5 +1,5 @@
 Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
+Wiki-Format: zim 0.6
 Creation-Date: 2019-07-30T20:07:48-06:00
 
 ====== ImageMagick ======
@@ -26,3 +26,9 @@ convert dragon.gif    -resize 64x64^  resize_dragon.gif
 https://imagemagick.org/Usage/crop/
 
 convert rose: -crop 40x30+10+10kk
+
+
+=== Scale and crop web images ===
+
+convert woman-green.jpg -resize 300x300^ thumbnails/woman-green.jpg
+convert thumbnails/woman-green.jpg -crop 300x300+0+0 thumbnails/woman-green.jpg

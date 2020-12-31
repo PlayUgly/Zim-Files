@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-12-31T11:44:18-07:00
+
+====== Update Web Site ======
+Created Thursday 31 December 2020
+
+Open host gator
+Under Control Panel, click File Manager
+In File Manager go to the public_html folder
+Upload files to the proper locations
+Could not upload entire folders on 12-31-20
+
